@@ -79,6 +79,11 @@
     transition: 0.5s;
     background: var(--bs-white);
     border: 0;
+    position: fixed !important; /* Giữ vị trí cố định */
+    top: 0; /* Luôn ở trên cùng */
+    left: 0;
+    right: 0;
+    z-index: 1030; /* Nằm trên các phần tử khác */
 }
 
 .topbar {
